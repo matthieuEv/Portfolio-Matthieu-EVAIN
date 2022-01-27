@@ -553,13 +553,13 @@ nav a{
 }
 .sous{
     display: none;
-    background-color: RGBa(200,200,200,0.1);
+    background-color: rgba(206, 64, 64, 1);
     position: absolute;
     z-index: 1000;
     border-radius: 20px;
 }
 nav > ul li:hover .sous{
-    display: block;
+    transition: 1s;
 }
 .sous li{
     float: none;
